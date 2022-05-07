@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <div class="transparent"></div>
+  <body>
+    <header>
+      <img id="logo" src="./images/logo.svg" alt="" />
+      <img id="bars" src="./images/icon-menu.svg" alt="" />
+      <nav>
+        <img src="./images/icon-close-menu.svg" alt="" id="close" />
+        <ul class="navigate">
+          <li>
+            <button class="dropdown features">
+              Features
+              <img
+                class="arrow one"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+              />
+            </button>
+            <ul class="menu dropdown-one">
+              <li>
+                <img src="./images/icon-todo.svg" alt="" /><a href="#"
+                  >Todo List</a
+                >
+              </li>
+              <li>
+                <img src="./images/icon-calendar.svg" alt="" /><a href="#"
+                  >Calender</a
+                >
+              </li>
+              <li>
+                <img src="./images/icon-reminders.svg" alt="" /><a href="#"
+                  >Reminders</a
+                >
+              </li>
+              <li>
+                <img src="./images/icon-planning.svg" alt="" /><a href="#"
+                  >Planning</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button class="dropdown company">
+              Company
+              <img
+                class="arrow two"
+                src="./images/icon-arrow-down.svg"
+                alt=""
+              />
+            </button>
+            <ul class="menu dropdown-two">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li><button>Careers</button></li>
+          <li><button about>About</button></li>
+        </ul>
+        <ul class="login">
+          <li><button>Login</button></li>
+          <li><button id="register">Register</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img id="hero" src="./images/image-hero-desktop.png" alt="" />
+      <section>
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <ul>
+          <li><img src="./images/client-databiz.svg" alt="" /></li>
+          <li>
+            <img src="./images/client-audiophile.svg" alt="" />
+          </li>
+          <li><img src="./images/client-meet.svg" alt="" /></li>
+          <li><img src="./images/client-maker.svg" alt="" /></li>
+        </ul>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/leo-ajr" target="_blank">acha-jr</a>.
+        </div>
+      </section>
+    </main>
+    <script src="./scipt.js"></script>
+  </body>
+</html>
